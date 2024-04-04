@@ -39,9 +39,14 @@ Step 1:
 
 Step 2: Install/Enable IIS in Windows
 <br> - Inside the VM, go to the start menu, control panel, programs, and in the programs and features, click turn windows features on or off
-<br> - Inside the popup, you will check and double click Internet Information Services, check and double click World Wide Web Services, check and double click Application Development Features and check CGI, you will also Check and double click Common HTTP Features and check all six folders, press ok 
+<br> - Inside the popup, you will check and double click Internet Information Services, check and double click Web Managment Tools, check IIS Management Console, check and double click World Wide Web Services, check and double click Application Development Features and check CGI, you will also Check and double click Common HTTP Features and check all six folders, press ok 
 <br> - To check If you had did everything correctly, head over to your web broswer and in the search bar, type 127.0.0.1 and a IIS web portal will appear 
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/44e9d665-7120-4622-9a19-ce2c3cc2fbf2)
 
-![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/56405020-b195-4dc5-a579-90ba7d574f90)
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/50c63b46-b022-44d6-a11a-1a45853bccd8)
+
+
+Step 3: Install Files
+<br> We will now install some files to set up our osTicking system, you can find these files by using google and downloading the files 
+<br> 
