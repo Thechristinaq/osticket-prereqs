@@ -49,4 +49,28 @@ Step 2: Install/Enable IIS in Windows
 
 Step 3: Install Files
 <br> We will now install some files to set up our osTicking system, you can find these files by using google and downloading the files 
-<br> 
+<br> 1st, download and install PHP Manager for IIS (PHPManagerForIIA_V1.5.0.msi) (I have already installed the PHP Manager, follow the prompt for installation)
+<br> 2nd, download and install Rewrite Module (reweire_amd64_en-US.msi) (I have already installed the Rewrite Module, follow the prompt for installation)
+<br> 3rd, create a folder called PHP in the C drive 
+<br> 4th, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86) and unzip the contents into the PHP folder that we created 
+<br> 5th, download and install VC redist.x86.exe 
+<br> 6th, download and install MySQL 5.5.62 (mysql-5.5.62-win32.ms1), click typical setup and install, launch the configuration wizard, click standard configuration, enter a password that you will remember for the root password, click next and execute 
+<br> 7th, in the start menu, type and open IIS as an admin by right clicking the application and selecting run as administrator 
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/02f7fc6a-4cca-4e83-8c21-2f7a9ddc862b)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/4d34600e-f4c3-4338-bcb8-f6549c032cfb)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/270cc768-0075-4b88-9e40-4eb30ce939ab)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/19eb71c9-5390-4e47-99d7-9e587f0580e8)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/a070d939-1735-4915-ae30-a8810f20373e)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/97892a9d-4ad8-47bd-8625-29a9d09f372d)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/5602dc37-527b-4c55-95df-45538b69fa4b)
+
+
+
+
