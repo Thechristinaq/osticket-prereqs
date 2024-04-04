@@ -24,8 +24,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Step 3: Install Files (has a 8 step process)
 - Step 4: Configure Extensions
 - Step 5: Renaming and Assigning Permissions
-- Step 6: Setup osTicket in the browser
-- Step 7: Install HeidiSQL
+- Step 6: Setup osTicket in the browser and install HeidiSQL
+
 
 <h2>Installation Steps</h2>
 
@@ -83,7 +83,6 @@ Step 3: Install Files
 
 
 Step 4: Configure Extensions
-
 <br> - In the IIS manager, restart the server, click Sites, Default Web Site, osTicket, double click PHP manager and then click Enable or disable an extention under PHP Extensions
 <br> - Within PHP extentions, scroll down and enable "php_imap.dll, php_intl.dll, and php_opcache.dll and then restart the server in the home page after this changes
 <br> - Click on Sites, Default Web Site, osTicket, and click on Browse *:80 (http), you will see the osTicket Installer page If everything has been installed and configured ok so far 
@@ -96,6 +95,39 @@ Step 4: Configure Extensions
 
 
 Step 5: Renaming and Assigning Permissions
+<br> - In the C folder, click inetpub, wwwroot, osTicket, include, scroll down to ost-sampleconfig.php, change it to ost-config.php (delete the word sample)  
+<br> - Once you have changed the name, right click into ost-config.php, click properties, advanced, disable inheritence, remove all inherited permissions from this object   
+<br> - In the same window, click add, select a principle, type everyone, click check names and ok, check all the boxes and click ok, apply, then ok 
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/7a0ae5e2-32cf-4f04-a891-1984cbf339d8)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/63849632-b7c9-4c9f-bcfc-af07876bca68)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/bcaf516e-2318-4b75-8c48-20a93a460ed4)
+
+
+Step 6: Setup osTicket in the browser and install HeidiSQL
+<br> - Return to the osTicket Installer webpage and click ok, fill in the information until you get to the Database Settings section 
+<br> - Download and install HeidiSQL (HeidiSQL_12.3.0.6589_Setup), open HeidiSQL, click new, session in root folder, type the username and password and click ok 
+<br> - Right click on the left side portion, click create new. database, name it osTicket and use the information to set up the Database Settings section on the osTicket installer webpage, once finished, click install now 
+<br> - In the web browser search bar, type http://localhost/osTicket/scp/login.php and log in with your credentials 
+<br> - Congratulations, hopefully it was installed with no errors!!
+
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/d6315935-049f-4f88-8612-9b37108c4d01)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/34a8d757-dd37-411d-9f9d-0edafc40b4de)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/afee915c-d6be-47cb-9b2a-0abe6bcc7e6d)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/8eaef088-0361-451b-a23d-6de7d5995bf7)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/1097c021-9d19-45c5-8f12-bfbffeceea63)
+
+
+
+
+
 
 
 
