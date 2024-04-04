@@ -73,9 +73,7 @@ Step 3: Install Files (has a 7 step process)
  
 - 5th, download and install MySQL 5.5.62 (mysql-5.5.62-win32.ms1), click typical setup and install, launch the configuration wizard, click standard configuration, enter a password that you will remember for the root password, click next and execute
 
-![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/a070d939-1735-4915-ae30-a8810f20373e)
-
-![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/97892a9d-4ad8-47bd-8625-29a9d09f372d)
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/8aa7a18b-2252-48f8-a24b-026398022f9e)
 
 - 6th, in the start menu, type and open IIS as an admin by right clicking the application and selecting run as administrator, once inside click the PHP manager, register new PHP version, browse for the PHP file in the C drive that we had created in the 3rd step, then click php-cgi. return to the home page after and restart the server (it is a good idea to restart the server when you make changes in the IIS manager)
 
