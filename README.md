@@ -69,17 +69,15 @@ Step 3: Install Files (has a 7 step process)
  
 - 4th, download and install VC redist.x86.exe
 
-![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/270cc768-0075-4b88-9e40-4eb30ce939ab)
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/19eb71c9-5390-4e47-99d7-9e587f0580e8)
  
 - 5th, download and install MySQL 5.5.62 (mysql-5.5.62-win32.ms1), click typical setup and install, launch the configuration wizard, click standard configuration, enter a password that you will remember for the root password, click next and execute
 
-![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/19eb71c9-5390-4e47-99d7-9e587f0580e8)
-
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/a070d939-1735-4915-ae30-a8810f20373e)
 
-- 6th, in the start menu, type and open IIS as an admin by right clicking the application and selecting run as administrator, once inside click the PHP manager, register new PHP version, browse for the PHP file in the C drive that we had created in the 3rd step, then click php-cgi. return to the home page after and restart the server (it is a good idea to restart the server when you make changes in the IIS manager)
-
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/97892a9d-4ad8-47bd-8625-29a9d09f372d)
+
+- 6th, in the start menu, type and open IIS as an admin by right clicking the application and selecting run as administrator, once inside click the PHP manager, register new PHP version, browse for the PHP file in the C drive that we had created in the 3rd step, then click php-cgi. return to the home page after and restart the server (it is a good idea to restart the server when you make changes in the IIS manager)
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/5602dc37-527b-4c55-95df-45538b69fa4b)
 
@@ -87,19 +85,16 @@ Step 3: Install Files (has a 7 step process)
 
 - 7th, download the osTicket v1.15.8 file, once downloaded, right click on the folder and click extract all into the wwwroot folder, after the files have been extracted, return to the wwwroot folder and change the upload file name to "osTicket" 
 
-![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/5e482697-b56f-4fbc-849c-b76cbf54b7b5)
-
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/b5e72eb5-17f0-4584-83dd-cbec3f1e4e54)
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/c98d7f0a-60e0-4055-8fa6-8c2a7830be00)
 
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/9e93655d-e9b5-413c-ac8e-d51a39301d8e)
 
 Step 4: Configure Extensions
 - In the IIS manager, restart the server, click Sites, Default Web Site, osTicket, double click PHP manager and then click Enable or disable an extention under PHP Extensions
 - Within PHP extentions, scroll down and enable "php_imap.dll, php_intl.dll, and php_opcache.dll and then restart the server in the home page after this changes
 - Click on Sites, Default Web Site, osTicket, and click on Browse *:80 (http), you will see the osTicket Installer page If everything has been installed and configured ok so far 
-
-![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/9e93655d-e9b5-413c-ac8e-d51a39301d8e)
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/41df97e0-59dc-4ec8-b33e-909763a2bdc0)
 
