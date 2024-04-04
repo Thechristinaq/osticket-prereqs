@@ -30,7 +30,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 Step 1: 
 <br> - Create a Virtual Machine in Azure with Windows 10 (22H2)
-<br> - Remote Desktop Connection into the VM using the public IP address
+<br> - Using the Start menu, type "Remote Desktop Connection" and connect into the VM using the public IP address
 
-![Uploading image.png…]()
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/feb464ce-7a0b-4513-acfd-a5c1606df949)
 
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/f5fb7401-30de-4d32-8299-437f8e863206)
+
+
+Step 2: Install/Enable IIS in Windows
+<br> - Inside the VM, go to the start menu, control panel, programs, and in the programs and features, click turn windows features on or off
+<br> - Inside the popup, you will check and double click Internet Information Services, check and double click World Wide Web Services, check and double click Application Development Features and check CGI, you will also Check and double click Common HTTP Features and check all six folders, press ok 
+<br> - To check If you had did everything correctly, head over to your web broswer and in the search bar, type 127.0.0.1 and a IIS web portal will appear 
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/44e9d665-7120-4622-9a19-ce2c3cc2fbf2)
+
+![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/56405020-b195-4dc5-a579-90ba7d574f90)
