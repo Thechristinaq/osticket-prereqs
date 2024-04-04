@@ -30,8 +30,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 Step 1: 
-<br> - Create a Virtual Machine in Azure with Windows 10 (22H2)
-<br> - Using the Start menu, type "Remote Desktop Connection" and connect into the VM using the public IP address
+- Create a Virtual Machine in Azure with Windows 10 (22H2)
+- Using the Start menu, type "Remote Desktop Connection" and connect into the VM using the public IP address
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/feb464ce-7a0b-4513-acfd-a5c1606df949)
 
@@ -39,9 +39,9 @@ Step 1:
 
 
 Step 2: Install/Enable IIS in Windows
-<br> - Inside the VM, go to the start menu, control panel, programs, and in the programs and features, click turn windows features on or off
-<br> - Inside the popup, you will check and double click Internet Information Services, check and double click Web Managment Tools, check IIS Management Console, check and double click World Wide Web Services, check and double click Application Development Features and check CGI, you will also Check and double click Common HTTP Features and check all six folders, press ok 
-<br> - To check If you had did everything correctly, head over to your web broswer and in the search bar, type 127.0.0.1 and a IIS web portal will appear 
+- Inside the VM, go to the start menu, control panel, programs, and in the programs and features, click turn windows features on or off
+- Inside the popup, you will check and double click Internet Information Services, check and double click Web Managment Tools, check IIS Management Console, check and double click World Wide Web Services, check and double click Application Development Features and check CGI, you will also Check and double click Common HTTP Features and check all six folders, press ok 
+- To check If you had did everything correctly, head over to your web broswer and in the search bar, type 127.0.0.1 and a IIS web portal will appear 
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/44e9d665-7120-4622-9a19-ce2c3cc2fbf2)
 
@@ -49,15 +49,15 @@ Step 2: Install/Enable IIS in Windows
 
 
 Step 3: Install Files 
-<br> We will now install some files to set up our osTicking system, you can find these files by using google and downloading the files (there will be 8 steps in this portion)
-<br> 1st, download and install PHP Manager for IIS (PHPManagerForIIA_V1.5.0.msi) (I have already installed the PHP Manager, follow the prompt for installation)
-<br> 2nd, download and install Rewrite Module (reweire_amd64_en-US.msi) (I have already installed the Rewrite Module, follow the prompt for installation)
-<br> 3rd, create a folder called PHP in the C drive 
-<br> 4th, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86) and unzip the contents into the PHP folder that we created 
-<br> 5th, download and install VC redist.x86.exe 
-<br> 6th, download and install MySQL 5.5.62 (mysql-5.5.62-win32.ms1), click typical setup and install, launch the configuration wizard, click standard configuration, enter a password that you will remember for the root password, click next and execute 
-<br> 7th, in the start menu, type and open IIS as an admin by right clicking the application and selecting run as administrator, once inside click the PHP manager, register new PHP version, browse for the PHP file in the C drive that we had created in the 3rd step, then click php-cgi. return to the home page after and restart the server (it is a good idea to restart the server when you make changes in the IIS manager)     
-<br> 8th, download the osTicket v1.15.8 file, once downloaded, right click on the folder and click extract all into the wwwroot folder, after the files have been extracted, return to the wwwroot folder and change the upload file name to "osTicket" 
+- We will now install some files to set up our osTicking system, you can find these files by using google and downloading the files (there will be 8 steps in this portion)
+- 1st, download and install PHP Manager for IIS (PHPManagerForIIA_V1.5.0.msi) (I have already installed the PHP Manager, follow the prompt for installation)
+- 2nd, download and install Rewrite Module (reweire_amd64_en-US.msi) (I have already installed the Rewrite Module, follow the prompt for installation)
+- 3rd, create a folder called PHP in the C drive 
+- 4th, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86) and unzip the contents into the PHP folder that we created 
+- 5th, download and install VC redist.x86.exe 
+- 6th, download and install MySQL 5.5.62 (mysql-5.5.62-win32.ms1), click typical setup and install, launch the configuration wizard, click standard configuration, enter a password that you will remember for the root password, click next and execute 
+- 7th, in the start menu, type and open IIS as an admin by right clicking the application and selecting run as administrator, once inside click the PHP manager, register new PHP version, browse for the PHP file in the C drive that we had created in the 3rd step, then click php-cgi. return to the home page after and restart the server (it is a good idea to restart the server when you make changes in the IIS manager)     
+- 8th, download the osTicket v1.15.8 file, once downloaded, right click on the folder and click extract all into the wwwroot folder, after the files have been extracted, return to the wwwroot folder and change the upload file name to "osTicket" 
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/02f7fc6a-4cca-4e83-8c21-2f7a9ddc862b)
 
@@ -83,9 +83,9 @@ Step 3: Install Files
 
 
 Step 4: Configure Extensions
-<br> - In the IIS manager, restart the server, click Sites, Default Web Site, osTicket, double click PHP manager and then click Enable or disable an extention under PHP Extensions
-<br> - Within PHP extentions, scroll down and enable "php_imap.dll, php_intl.dll, and php_opcache.dll and then restart the server in the home page after this changes
-<br> - Click on Sites, Default Web Site, osTicket, and click on Browse *:80 (http), you will see the osTicket Installer page If everything has been installed and configured ok so far 
+- In the IIS manager, restart the server, click Sites, Default Web Site, osTicket, double click PHP manager and then click Enable or disable an extention under PHP Extensions
+- Within PHP extentions, scroll down and enable "php_imap.dll, php_intl.dll, and php_opcache.dll and then restart the server in the home page after this changes
+- Click on Sites, Default Web Site, osTicket, and click on Browse *:80 (http), you will see the osTicket Installer page If everything has been installed and configured ok so far 
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/9e93655d-e9b5-413c-ac8e-d51a39301d8e)
 
@@ -95,9 +95,9 @@ Step 4: Configure Extensions
 
 
 Step 5: Renaming and Assigning Permissions
-<br> - In the C folder, click inetpub, wwwroot, osTicket, include, scroll down to ost-sampleconfig.php, change it to ost-config.php (delete the word sample)  
-<br> - Once you have changed the name, right click into ost-config.php, click properties, advanced, disable inheritence, remove all inherited permissions from this object   
-<br> - In the same window, click add, select a principle, type everyone, click check names and ok, check all the boxes and click ok, apply, then ok 
+- In the C folder, click inetpub, wwwroot, osTicket, include, scroll down to ost-sampleconfig.php, change it to ost-config.php (delete the word sample)  
+- Once you have changed the name, right click into ost-config.php, click properties, advanced, disable inheritence, remove all inherited permissions from this object
+- In the same window, click add, select a principle, type everyone, click check names and ok, check all the boxes and click ok, apply, then ok 
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/7a0ae5e2-32cf-4f04-a891-1984cbf339d8)
 
@@ -107,11 +107,11 @@ Step 5: Renaming and Assigning Permissions
 
 
 Step 6: Setup osTicket in the browser and install HeidiSQL
-<br> - Return to the osTicket Installer webpage and click ok, fill in the information until you get to the Database Settings section 
-<br> - Download and install HeidiSQL (HeidiSQL_12.3.0.6589_Setup), open HeidiSQL, click new, session in root folder, type the username and password and click ok 
-<br> - Right click on the left side portion, click create new. database, name it osTicket and use the information to set up the Database Settings section on the osTicket installer webpage, once finished, click install now 
-<br> - In the web browser search bar, type http://localhost/osTicket/scp/login.php and log in with your credentials 
-<br> - Congratulations, hopefully it was installed with no errors!!
+- Return to the osTicket Installer webpage and click ok, fill in the information until you get to the Database Settings section 
+- Download and install HeidiSQL (HeidiSQL_12.3.0.6589_Setup), open HeidiSQL, click new, session in root folder, type the username and password and click ok 
+- Right click on the left side portion, click create new. database, name it osTicket and use the information to set up the Database Settings section on the osTicket installer webpage, once finished, click install now 
+- In the web browser search bar, type http://localhost/osTicket/scp/login.php and log in with your credentials 
+- Congratulations, hopefully it was installed with no errors!!
 
 
 ![image](https://github.com/thechristinaq/osTicket---Prerequisites-and-Installation/assets/165831241/d6315935-049f-4f88-8612-9b37108c4d01)
